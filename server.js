@@ -9,7 +9,7 @@ const adminRoutes = require('./routes/admin');
 const app = express();
 const corsOptions = {
   origin: 'https://myfolioz.vercel.app',
-  methods: ['GET', 'POST', 'PUT','PATCH', 'DELETE', 'OPTIONS'],
+  methods: ['GET', 'POST', 'PUT','PATCH', 'DELETE', 'OPTIONS','Access-Control-Allow-Origin'],
   allowedHeaders: ['Content-Type', 'Authorization',"x-admin-key"],
   credentials: true,
 };
