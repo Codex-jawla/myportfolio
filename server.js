@@ -8,7 +8,7 @@ const adminRoutes = require('./routes/admin');
 
 const app = express();
 const corsOptions = {
-  origin: 'https://myfolio.netlify.app',
+  origin: 'https://myfolioz.netlify.app',
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization',"x-admin-key"],
   credentials: true,
